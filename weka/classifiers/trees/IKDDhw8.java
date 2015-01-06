@@ -1550,7 +1550,7 @@ public class IKDDhw8
 	
 	double proportionCNum = correctNum/(correctNum + wrongNum);
 	double proportionWNum = 1 - proportionCNum;
-	text.append("\n: " + "entrophy = " + 
+	text.append("\n: " + "entropy = " + 
 			(-proportionCNum * Math.log(proportionCNum) - 
 			proportionWNum * Math.log(proportionWNum)) );
       }
